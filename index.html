@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Jatin's Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav>
+      <div id="logo">Portfolio</div>
+      <input type="checkbox" id="click" />
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a class="nav-btn hover" id="pro" href="#">Home</a></li>
+        <li><a class="nav-btn" id="abo" href="#">About</a></li>
+        <li><a class="nav-btn" id="exp" href="#">Skills</a></li>
+        <li><a class="nav-btn" id="proj" href="#">Projects</a></li>
+        <li><a class="nav-btn" id="con" href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="media/jatin1.jpg" alt="Jatin singh sond profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Jatin Singh</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('resume.pdf')">
+            Download CV
+          </button>
+          <button class="btn btn-color-1" id="contact-btn">Contact Info</button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="media/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href=''"
+          />
+          <img
+            src="media/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href=''"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about" class="myabout">
+      <div class="container">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="container-1">
+          <div class="container-2">
+            <div class="container-3">
+              <img src="media/jatin2.jpg" alt="Profile Photo" class="profile-photo" />
+              <img src="media/jatin3.jpg" alt="Profile Photo" class="profile-photo-2" />
+            </div>
+            <div>
+              <div class="info-cards">
+                <div class="card">
+                  <h3><span class="icon">🎓</span> Education</h3>
+                  <p>Graduated in B.Com<br />From Delhi University</p>
+                </div>
+                <div class="card">
+                  <h3><span class="icon">👨‍💼</span> Experience</h3>
+                  <p>Fresher</p>
+                </div>
+              </div>
+
+              <div class="description">
+                Highly motivated & dedicated individual with a strong work
+                ethic. Proficient in time management and organization, ensuring
+                punctuality & responsibility in tasks. Recently, I completed my
+                web development course. Now, I want to leverage my skills in a
+                dynamic work environment.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="myexperience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="grid-box">
+        <div id="grid">
+          <div class="item" style="background-image: url(media/s1.jpg)"></div>
+          <div class="item" style="background-image: url(media/s2.jpg)"></div>
+          <div class="item" style="background-image: url(media/s3.jpg)"></div>
+          <div class="item" style="background-image: url(media/s4.jpg)"></div>
+          <div class="item" style="background-image: url(media/s5.jpg)"></div>
+          <div class="item" style="background-image: url(media/s6.jpg)"></div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="myprojects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="grid-box">
+        <div id="grid">
+          <a href="/menu/food.html" target="_blank">
+            <div class="items">
+              <img src="media/p1.jpg" class="image" alt="" />
+              <img
+                src="https://cdn.pixabay.com/photo/2016/03/30/00/21/icon-1289754_1280.png"
+                class="image2"
+                alt=""
+              />
+            </div>
+          </a>
+          <a href="/E-COMMERCE/e-commerce.html" target="_blank">
+            <div class="items">
+              <img src="media/p2.jpg" class="image" alt="" />
+              <img
+                src="https://cdn.pixabay.com/photo/2016/03/30/00/21/icon-1289754_1280.png"
+                class="image2"
+                alt=""
+              />
+            </div>
+          </a>
+          <a href="/resume/resume.html" target="_blank">
+            <div class="items">
+              <img src="media/p3.jpg" class="image" alt="" />
+              <img
+                src="https://cdn.pixabay.com/photo/2016/03/30/00/21/icon-1289754_1280.png"
+                class="image2"
+                alt=""
+              />
+            </div>
+          </a>
+          <a href="/ludo/ludo.html" target="_blank">
+            <div class="items">
+              <img src="media/p4.jpg" class="image" alt="" />
+              <img
+                src="https://cdn.pixabay.com/photo/2016/03/30/00/21/icon-1289754_1280.png"
+                class="image2"
+                alt=""
+              />
+            </div>
+          </a>
+          <a href="/table/Table.html" target="_blank">
+            <div class="items">
+              <img src="media/p5.jpg" class="image" alt="" />
+              <img
+                src="https://cdn.pixabay.com/photo/2016/03/30/00/21/icon-1289754_1280.png"
+                class="image2"
+                alt=""
+              />
+            </div>
+          </a>
+          <a href="/calculator/calculator.html" target="_blank">
+            <div class="items">
+              <img src="media/p6.jpg" class="image" alt="" />
+              <img
+                src="https://cdn.pixabay.com/photo/2016/03/30/00/21/icon-1289754_1280.png"
+                class="image2"
+                alt=""
+              />
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="mycontact">
+      <div>
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+      </div>
+      <div id="gmail">
+        <img src="media/icon.gif" width="150px" height="60px" alt="" />
+        <a href="https://wa.me/919310046435" target="_blank">        
+          <img src="media/icon1.png" class="contact-img" alt=""/>
+        </a>
+        <a href="tel:9310046435" target="_blank">
+          <img src="media/icon2.webp" class="contact-img" alt=""/>
+        </a>
+        <a href="mailto:jatinsinghsond06@gmail.com" target="_blank">
+          <img src="media/icon3.png" class="contact-img" alt=""/>
+        </a>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
